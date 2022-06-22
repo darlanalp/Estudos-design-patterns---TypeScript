@@ -1,0 +1,39 @@
+
+Padrões:
+
+ADAPTER - É um padrão estrutural 
+Converter a  interface de um classe em outra interface esperado pelo cliente
+Permite que classe de interface incompativeis trabalhe em conjuto 
+
+A base do ADAPTER é criar uma interface comun que sigamos em diferentes implementações que são simulares
+O proposito é encapsular e envolver adaptando.
+
+ABSTRACT FACTORY
+
+Fornecer uma interface para criacao de familia de objetos relacionados ou dependentes sem especificar suas classes
+concretas.
+
+STRATEGY
+
+Flexibilizar o comportamento de um determinado algoritimo/use case para atender as diferentes
+situações.
+É um padrão de comportamento.
+
+TEMPLATE METODO
+
+Padrão que em que vc estabelece comportamentos na classe base em uma classe abtrata e delega para que a superclsses
+complementem esse comportamento criando um template usando como base herança e polimorfismo
+
+COMMAND
+
+Serve para desacoplar quem chama de quem é chamado
+A inspiração é separar ele de quem chama e quem é chamado.
+
+OBSERVER
+
+Permite que você desacople dois ou mais objetos onde vc tem um objeto que é observado por muitos e que faz uma 
+estratégia de notificação
+
+MEDIATOR
+
+Parece com o observer, porem a diferença entre eles é que ele é de n para n
